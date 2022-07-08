@@ -1,27 +1,27 @@
 .App {
   /* text-align: center; */
-  background-color: rgb(206,214,208);
+  background-color: rgb(206, 214, 208);
 }
-.itemlist{
+.itemlist {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.item{
+.item {
   width: 20rem;
-  height:25rem;
-  margin:1rem;
+  height: 25rem;
+  margin: 1rem;
   position: relative;
   overflow: hidden;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
-.item:hover{
+.item:hover {
   transform: scale(1.2);
 }
-img{
-  width:100%;
-  height:100%;
+img {
+  width: 100%;
+  height: 100%;
   /* padding: 20px;
   padding-right: 20px;
   margin:auto; */
@@ -30,54 +30,50 @@ img{
 /* .back_img{
   padding: 10px;
 } */
-.title{
+.title {
   text-align: center;
 }
-.item_details{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.item_details {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  margin:auto;
+  margin: auto;
   border: 3rem 3rem;
   width: 50rem;
-  background-color: rgb(180,202, 237);
+  background-color: rgb(180, 202, 237);
   border-radius: 20px;
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
-
 }
-.other_details{
+.other_details {
   padding: 2px 16px;
   padding-left: 0px;
   margin-left: auto;
   margin-right: 0px;
 }
 
-
-
-.back_btn{
+.back_btn {
   padding: 1rem;
   height: max-content;
   margin: 5px;
   /* margin:auto; */
   /* position: fixed; */
   /* left: 50%; */
-
 }
-.searchForm{
+.searchForm {
   display: flex;
   background-color: transparent;
-  margin:auto;
+  margin: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width:20rem;
+  width: 20rem;
   padding-top: 2rem;
   padding-bottom: 3rem;
   border-radius: 5px;
 }
-.searchh{
-  width:50rem;
+.searchh {
+  width: 50rem;
 }
 
 .App-logo {
